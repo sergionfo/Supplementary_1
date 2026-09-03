@@ -5,4 +5,4 @@ This is the repository for the supplementary material for the paper entitled:
 In the **data** folder is the dataset of Santa Barbara. In the future the traces will be added.\
 In the **source** folder is the python code used.
 
-**ROC.ods** contains the calculations of the Receiver Operating Characteristic (ROC) analysis
+**ROC.ods** contains the calculations of the Receiver Operating Characteristic (ROC) analysis.
