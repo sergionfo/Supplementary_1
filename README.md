@@ -76,9 +76,18 @@ The evaluated models include:
 | BasicPhaseAE | GEOFON    |
 | BasicPhaseAE | INSTANCE  |
 | BasicPhaseAE | STEAD     |
-
-Model Training dataset 
-BasicPhaseAE ETHZ BasicPhaseAE GEOFON BasicPhaseAE INSTANCE BasicPhaseAE STEAD PhaseNet ETHZ PhaseNet GEOFON PhaseNet INSTANCE PhaseNet STEAD EQTransformer ETHZ EQTransformer GEOFON EQTransformer INSTANCE EQTransformer STEAD GPD ETHZ GPD GEOFON GPD INSTANCE GPD STEAD
+| PhaseNet   | ETHZ    |
+| PhaseNet | GEOFON    |
+| PhaseNet | INSTANCE  |
+| PhaseNet | STEAD     |
+| EQTransformer   | ETHZ    |
+| EQTransformer | GEOFON    |
+| EQTransformer | INSTANCE  |
+| EQTransformer | STEAD     |
+| GPD   | ETHZ    |
+| GPD | GEOFON    |
+| GPD | INSTANCE  |
+| GPD | STEAD     |
 
 The models were evaluated using their pretrained weights without local fine-tuning.
 
