@@ -49,28 +49,36 @@ The repository may contain metadata, example files, or anonymized/processed info
 
 ## Software requirements
 
-The analysis was performed using Python 3.10.19.
-The main packages used include:
+The analysis was performed using Python 3.10.19.  
+The main packages used include:  
 
-ObsPy
-SeisBench
-NumPy
-Pandas
-SciPy
-Matplotlib
-h5py
-csv
-math
-os
-
+ObsPy  
+SeisBench  
+NumPy  
+Pandas  
+SciPy  
+Matplotlib  
+h5py  
+csv  
+math  
+os  
+  
 The required Python packages can be installed using:
-
+  
     pip install -r requirements.txt
 
-SeisBench models Th study evaluates pretrained phase-picking models available through SeisBench.
-The evaluated models include:
+SeisBench models Th study evaluates pretrained phase-picking models available through SeisBench.  
+The evaluated models include:  
 
-Model Training dataset BasicPhaseAE ETHZ BasicPhaseAE GEOFON BasicPhaseAE INSTANCE BasicPhaseAE STEAD PhaseNet ETHZ PhaseNet GEOFON PhaseNet INSTANCE PhaseNet STEAD EQTransformer ETHZ EQTransformer GEOFON EQTransformer INSTANCE EQTransformer STEAD GPD ETHZ GPD GEOFON GPD INSTANCE GPD STEAD
+| Model     | Trainig    |
+| :-------- | :-------   | 
+| BasicPhaseAE | ETHZ    |
+| BasicPhaseAE | GEOFON    |
+| BasicPhaseAE | INSTANCE  |
+| BasicPhaseAE | STEAD     |
+
+Model Training dataset 
+BasicPhaseAE ETHZ BasicPhaseAE GEOFON BasicPhaseAE INSTANCE BasicPhaseAE STEAD PhaseNet ETHZ PhaseNet GEOFON PhaseNet INSTANCE PhaseNet STEAD EQTransformer ETHZ EQTransformer GEOFON EQTransformer INSTANCE EQTransformer STEAD GPD ETHZ GPD GEOFON GPD INSTANCE GPD STEAD
 
 The models were evaluated using their pretrained weights without local fine-tuning.
 
