@@ -34,6 +34,9 @@ The repository is intended to support the reproducibility and transparency of th
     
 
 ## Main directories
+### data/ 
+Contains all the metadata files  
+
 ### source/
 Contains all the scripts scripts used to in this work.
 
@@ -46,7 +49,7 @@ Contains files associated with the tables presented in the manuscript.
 ## Data
 The seismic dataset consists of volcano-tectonic earthquakes recorded by the CIVISA seismic network around Santa Bárbara Volcano, Terceira Island, Azores.  
 The dataset used in the study contains 649 events and 3463 three-component waveforms, with manually identified P and S-phase arrivals.  
-The waveform data are not redistributed in this repository because of institutional restrictions.  
+The waveform data are not redistributed in this repository at this moment because of institutional restrictions.  
 A description of the dataset and its characteristics is provided in the manuscript. Users with access to the corresponding seismic data can use the scripts provided here to reproduce the analysis.  
 The repository may contain metadata, example files, or anonymized/processed information where permitted.
 
