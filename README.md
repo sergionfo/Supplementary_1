@@ -24,14 +24,14 @@ The repository is intended to support the reproducibility and transparency of th
 ├── README.md  
 ├── requirements.txt  
 ├── data/  
-│ └── README.md  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── README.md  
 ├── source/  
-│ └── ...  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ...  
 ├── figures/  
-│ └── Supplementary_Figures.docx  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── Supplementary_Figures.docx  
 └── tables/  
-  ├── Roc.ods  
-  └── Supplementary_Tables.docx  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Roc.ods  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── Supplementary_Tables.docx  
     
 
 ## Main directories
