@@ -8,7 +8,13 @@ The study evaluates pretrained deep-learning seismic phase-picking models from S
 
 The main objectives of the repository are to:
 
-preprocess the seismic waveform data; apply pretrained SeisBench phase-picking models; evaluate P and S-phase picking performance; compare the deep-learning models with an STA/LTA baseline; calculate precision, recall, F1-score, and ROC-based metrics; analyze model performance across stations and datasets; reproduce the main tables and figures presented in the manuscript.
+- preprocess the seismic waveform data;
+- apply pretrained SeisBench phase-picking models;
+- evaluate P and S-phase picking performance;
+- compare the deep-learning models with an STA/LTA baseline;
+- calculate precision, recall, F1-score, and ROC-based metrics;
+- analyze model performance across stations and datasets;
+- reproduce the main tables and figures presented in the manuscript.
 
 The repository is intended to support the reproducibility and transparency of the computational analysis described in the paper.
 
