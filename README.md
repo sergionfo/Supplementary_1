@@ -20,17 +20,18 @@ The repository is intended to support the reproducibility and transparency of th
 
 
 ## Repository structure
-    .
-    ├── README.md
-    ├── requirements.txt
-    ├── data/
-    │ └── README.md
-    ├── source/
-    │ └── ...
-    ├── figures/
-    │ └── ...
-    └── tables/
-      └── ...
+.
+├── README.md
+├── requirements.txt
+├── data/
+│ └── README.md
+├── source/
+│ └── ...
+├── figures/
+│ └── Supplementary_Figures.docx
+└── tables/
+  ├── Roc.ods
+  └── Supplementary_Tables.docx
     
 
 ## Main directories
