@@ -20,40 +20,40 @@ reproduce the main tables and figures presented in the manuscript.
 
 The repository is intended to support the reproducibility and transparency of the computational analysis described in the paper.
 
-2. Repository structure
-.
-├── README.md
-├── requirements.txt
-├── data/
-│   └── README.md
-├── source/
-│   └── ...
-├── models/
-│   └── ...
-├── STA_LTA/
-│   └── ...
-├── evaluation/
-│   └── ...
-├── figures/
-│   └── ...
-├── tables/
-│   └── ...
-└── notebooks/
+2. Repository structure  
+.  
+├── README.md  
+├── requirements.txt  
+├── data/  
+│   └── README.md  
+├── source/  
+│   └── ...  
+├── models/  
+│   └── ...  
+├── STA_LTA/  
+│   └── ...  
+├── evaluation/  
+│   └── ...  
+├── figures/  
+│   └── ...  
+├── tables/  
+│   └── ...  
+└── notebooks/  
     └── ...
-Main directories
-
-source/
-Contains all the scripts scripts used to in this work.
-
-figures/
-Contains figures presented in the manuscript and supplementary material.
-
-tables/
-Contains files associated with the tables presented in the manuscript.
-
-
-3. Data
-
+     
+Main directories  
+  
+source/  
+Contains all the scripts scripts used to in this work.  
+  
+figures/  
+Contains figures presented in the manuscript and supplementary material.  
+  
+tables/  
+Contains files associated with the tables presented in the manuscript.  
+  
+  
+3. Data  
 The seismic dataset consists of volcano-tectonic earthquakes recorded by the CIVISA seismic network around Santa Bárbara Volcano, Terceira Island, Azores.  
 The dataset used in the study contains 649 events and 3463 three-component waveforms, with manually identified P and S-phase arrivals.  
 The waveform data are not redistributed in this repository because of [data-access/licensing/institutional] restrictions.  
