@@ -26,11 +26,15 @@ The repository is intended to support the reproducibility and transparency of th
 ├── data/  
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── README.md  
 ├── source/  
-│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── ...  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── modelTest.py - Code used to test the models. 
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── snr.py - Code for the calculation of signal to noise ratio for the P-phases
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── snr_s.py - Code for the calculation of signal to noise ratio for the S-phases
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── staLtaTest.py - Code use for the STA/LTA calculation
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── psd-hdf5.py - Code for the power spectrum density calculation for the training datasets  
 ├── figures/  
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── Supplementary_Figures.docx  
 └── tables/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Roc.ods  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── Roc.ods -> Spreadsheet with the calculation of the evaluation metrics
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── Supplementary_Tables.docx  
     
 
@@ -112,7 +116,7 @@ sampling rate: 100 Hz
 The resulting STA/LTA detections were evaluated using the same reference picks and tolerance criteria used for the deep-learning models.
 
 ## Evaluation metrics
-The repository contains the scripts used to calculate:  
+The repository contains the scripts and the spreadsheets used to calculate:  
 Precision  
 Recall  
 F1-score  
